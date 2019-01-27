@@ -105,7 +105,7 @@ $("#saveBtn").on("click", function () {
         localStorage.setItem("day", $("#daySelect").val());
         localStorage.setItem("time", $("#timeSelect").val());
         // if form is complete, links to "home" page
-        window.location.href = "https://hughesrva.github.io/funkey-project/home.html";
+        window.location.href = "https://ischu.github.io/socialscape/home";
     }
 });
 // incomplete form Modal
